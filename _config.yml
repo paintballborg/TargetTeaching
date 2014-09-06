@@ -1,0 +1,18 @@
+name: Target Teaching
+description: Tim Carroll - Certified NRA pistol instructor
+url: http://www.targetteaching.com
+author: Tim Carroll
+copyright: 2014 Tim Carroll All rights reserved
+base_url: http://www.targetteaching.com
+markdown: redcarpet
+pygments: true
+pygments_theme: syntax
+paginate: 5
+paginate_path: "page:num"
+safe: false
+plugins: _plugins
+gems: [jekyll/tagging,digest/md5,net/http]
+tag_page_layout: tag_page
+tag_page_dir: tags
+lsi: false
+enable_analytics: false
