@@ -5,14 +5,11 @@ author: Tim Carroll
 copyright: 2014 Tim Carroll All rights reserved
 base_url: http://www.targetteaching.com
 markdown: redcarpet
-pygments: true
-pygments_theme: syntax
+highlighter: rouge
 paginate: 5
 paginate_path: "page:num"
 safe: false
 plugins: _plugins
-gems: [jekyll/tagging,digest/md5,net/http]
-tag_page_layout: tag_page
-tag_page_dir: tags
+gems: [digest/md5,net/http]
 lsi: false
 enable_analytics: false
